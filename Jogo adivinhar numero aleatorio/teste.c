@@ -36,8 +36,12 @@ int main(void)
     if (numero_digitado == numero_aleatorio)
     {
         printf("Parabens!! Voce acertou! \n");
+        sleep(1);
         printf("Fim de jogo! Obrigado por participar: \n");
+        sleep(1);
         printf("Me siga no github para maiores projetos: marcelops123 \n");
+        sleep(3);
     }
-   
+   getchar();
+   return 0;
 }
