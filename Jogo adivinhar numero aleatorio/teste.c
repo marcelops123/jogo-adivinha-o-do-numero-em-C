@@ -31,6 +31,7 @@ int main(void)
         if (contador == -1)
         {
             printf("Suas tentativas acabaram! \n");
+            printf("O  NUMERO GERADO ERA: %d \n", numero_aleatorio);
             printf("---GAME OVER!--- \n");
             printf("Obrigado por participar: %s \n", nome);
             sleep(3);
