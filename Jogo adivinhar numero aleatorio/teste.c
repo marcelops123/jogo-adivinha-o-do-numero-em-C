@@ -33,9 +33,11 @@ int main(void)
             printf("Suas tentativas acabaram! \n");
             printf("---GAME OVER!--- \n");
             printf("Obrigado por participar: %s \n", nome);
-            sleep(1);
-            printf("Me siga no github para maiores projetos: marcelops123 \n");
             sleep(3);
+            printf("%s, VOCE SERA REDIRECIONADO PARA O MEU SITE, MINHA REDES SOCIAIS ESTAO NO RODAPE \n", nome);
+            printf("------------------------------------------------------------------------------- \n");
+            sleep(5);
+            system("start chrome.exe http://marcelin.vercel.app");
             break;
         }
         if (numero_aleatorio < numero_digitado)
@@ -55,13 +57,14 @@ int main(void)
     {
         printf("PARABENS! VOCE ACERTOU COM %d tentativas restantes!! \n", contador);
         printf("-------------------------------------------- \n");
-        sleep(1);
+        sleep(2);
         printf("Fim de jogo! Obrigado por participar: %s \n", nome);
         printf("-------------------------------------------- \n");
-        sleep(1);
-        printf("Me siga no github para maiores projetos: marcelops123 \n");
-        printf("-------------------------------------------- \n");
-        sleep(3);
+        sleep(2);
+        printf("%s, VOCE SERA REDIRECIONADO PARA O MEU SITE, MINHA REDES SOCIAIS ESTAO NO RODAPE \n", nome);
+        printf("------------------------------------------------------------------------------- \n");
+        sleep(5);
+        system("start chrome.exe http://marcelin.vercel.app");
     }
     getchar();
     return 0;
