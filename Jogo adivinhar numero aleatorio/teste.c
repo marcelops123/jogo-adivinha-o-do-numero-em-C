@@ -8,6 +8,8 @@ int main(void)
     char nome[20];
 
     printf("-------------------------------- \n");
+    printf("DESENVOLVIDO POR Marcelin \n");
+    printf("-------------------------------- \n");
     printf("-----Seja bem vindo!-----\n ");
     printf("--------------------------------------\n");
     printf("Para comecar, por favor digite seu nome:\n");
